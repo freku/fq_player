@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>god like nav/</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="container" id='main'>
+        <div class='hud'>
+            <div class="gang-name" id='gname'>
+                Vagos
+            </div>
+            <div class="info-box">
+                <i class="material-icons info-icon size-18">access_time</i>
+                <div class="info-text">
+                    <span id="time">15:46</span>
+                    <span class="seconds" id='sec'>10</span>
+                </div>
+            </div>
+            <div class="info-box">
+                <i class="material-icons info-icon size-18">monetization_on</i>
+                <div class='abs-money'>
+                    <div class="info-text" id='money'>
+                        00000001562
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        $('#main').hide();
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
